@@ -130,8 +130,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 459587388}
-  - component: {fileID: 459587390}
   - component: {fileID: 459587389}
+  - component: {fileID: 459587390}
   m_Layer: 0
   m_Name: AI Piano
   m_TagString: Untagged
@@ -165,6 +165,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0689e1cfdbe0343da894ba79dcb0fe33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
+  notes:
+  - {fileID: 8300000, guid: b6aa9d89c3b9e4210a89066b44454522, type: 3}
+  - {fileID: 8300000, guid: b70cff432f86a42fca2e4ee4384cd91b, type: 3}
+  - {fileID: 8300000, guid: 5f9bf940f04d04b8ebb03f07b29aa586, type: 3}
+  - {fileID: 8300000, guid: b73deed02d885405c98663ba444640eb, type: 3}
+  - {fileID: 8300000, guid: 63b447b71e41f4012b9985978587aaf1, type: 3}
+  - {fileID: 8300000, guid: 646b913ba23d249eb8be8e61bd552284, type: 3}
+  - {fileID: 8300000, guid: c3bd3fea12ee9443c9414ef265fb8925, type: 3}
+  - {fileID: 8300000, guid: 2866a26873f664fc9afe6e31c04e8cec, type: 3}
+  - {fileID: 8300000, guid: 20fc90753dbd54d2790829917bcd4e6f, type: 3}
+  - {fileID: 8300000, guid: 8796beb77801043f09c8112c8de7f466, type: 3}
+  - {fileID: 8300000, guid: 88536980cc9294fcc947d0aad5e2f00f, type: 3}
+  - {fileID: 8300000, guid: ef03800f1d3be42149fc05652e462fe9, type: 3}
+  - {fileID: 8300000, guid: 91062903c22be4d62b8b335aa0ac6045, type: 3}
+  - {fileID: 8300000, guid: ba88061bffeaf428389fca641aab7544, type: 3}
+  - {fileID: 8300000, guid: 67c12ba98f77343d3b18c8405b7f91b1, type: 3}
+  - {fileID: 8300000, guid: 0ec8ab3945eec4a51859c050aef686bf, type: 3}
+  - {fileID: 8300000, guid: 8d564058d9d344c70ad02b43ab0d9c3e, type: 3}
+  - {fileID: 8300000, guid: 549752fb747a14376bc39d3c42974ce9, type: 3}
+  - {fileID: 8300000, guid: 67e59aae8623a43489b182c4a7c08ca2, type: 3}
+  - {fileID: 8300000, guid: 38dc05ed3e7354e359f90e10f31fe994, type: 3}
+  - {fileID: 8300000, guid: d6024be1db7af4a3b8250a9318e7f317, type: 3}
+  - {fileID: 8300000, guid: 77994100dcccf4aa6b04e325c174f7a2, type: 3}
+  - {fileID: 8300000, guid: 7110acd3d605e4de7bacb1784614f89a, type: 3}
+  - {fileID: 8300000, guid: 7bf6da592f8d7422aad7521e576970f5, type: 3}
+  - {fileID: 8300000, guid: aefffee7230f44e0f8930d982c48a385, type: 3}
+  - {fileID: 8300000, guid: 5420462ec60b44caeb8a83bc11727c6a, type: 3}
+  - {fileID: 8300000, guid: 6c24a6ea7c4fa4ae1ba5423ba7f558a4, type: 3}
+  - {fileID: 8300000, guid: 9228270b4e8a94922995a27d7161298a, type: 3}
+  - {fileID: 8300000, guid: 4ab545cfb8c2741a7996f1b594dd7497, type: 3}
+  - {fileID: 8300000, guid: 54617b72719bf463cbf839424f1df94b, type: 3}
+  - {fileID: 8300000, guid: ee49478d84fdb42a39f52002a24a982b, type: 3}
+  - {fileID: 8300000, guid: 96a739a499bf8454bb274f0489219e7a, type: 3}
+  - {fileID: 8300000, guid: bf7320eaa81074a7baedcfd2e1dc8e43, type: 3}
+  - {fileID: 8300000, guid: bc0cc2df5f61e4b9881b86d9ce6f926e, type: 3}
+  - {fileID: 8300000, guid: d12495414bcdb403fa70df591dac18a3, type: 3}
+  - {fileID: 8300000, guid: d263dcff43ee64d45a8447d858bdd310, type: 3}
+  - {fileID: 8300000, guid: 5a6a4f13548d54bacb37cb8f498e9e97, type: 3}
+  audioSource: {fileID: 459587390}
 --- !u!82 &459587390
 AudioSource:
   m_ObjectHideFlags: 0
