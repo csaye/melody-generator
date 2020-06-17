@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.5
-  variation: 0
+  variation: 18
   minNote: 0
   maxNote: 36
   notes:
