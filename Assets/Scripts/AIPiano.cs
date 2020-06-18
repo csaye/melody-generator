@@ -21,12 +21,14 @@ public class AIPiano : MonoBehaviour
     
     private Coroutine cor;
 
+    private int index;
+
     void Update()
     {
         // Minimum note failsafe
         if (minNote > maxNote)
         {
-            minNote = maxNote;
+            maxNote = minNote;
         }
 
         if (Input.GetKeyDown("space"))
@@ -42,12 +44,20 @@ public class AIPiano : MonoBehaviour
                 StopCoroutine(cor);
             }
         }
+
+        if (Input.GetKeyDown("r"))
+        {
+            noteScroller.text = "";
+
+            // Reset to random note
+            index = Random.Range(minNote, maxNote + 1);
+        }
     }
 
     private IEnumerator playNote()
     {
         // Begin on random note
-        int index = Random.Range(minNote, maxNote + 1);
+        index = Random.Range(minNote, maxNote + 1);
 
         while (true)
         {
